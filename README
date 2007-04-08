@@ -1,0 +1,162 @@
+bzrtools
+------------------------------------------
+A collection of plugins for Bazaar VCS.
+
+Runtime requirements:
+  bzr-0.15-1
+  python-2.4.3-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.2.11-1
+  python-2.4.3-1
+
+Canonical website:
+  http://bazaar-vcs.org/BzrTools
+
+Canonical download:
+  http://panoramicfeedback.com/opensource/
+
+-------------------------------------------
+
+Build instructions:
+  unpack bzrtools-0.15.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./bzrtools-0.15.4-X.cygport all
+
+This will create:
+  /usr/src/bzrtools-0.15.4-X-src.tar.bz2
+  /usr/src/bzrtools-0.15.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/__init__.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/__init__.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/__init__.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/baz_import.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/baz_import.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/baz_import.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branch_mark.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branch_mark.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branch_mark.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branches.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branches.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branches.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branchhistory.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branchhistory.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/branchhistory.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/bzrtools.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/bzrtools.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/bzrtools.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/cbranch.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/cbranch.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/cbranch.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/clean_tree.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/clean_tree.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/clean_tree.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/colordiff.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/colordiff.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/colordiff.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/dotgraph.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/dotgraph.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/dotgraph.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/errors.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/errors.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/errors.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/fai.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/fai.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/fai.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/fetch_ghosts.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/fetch_ghosts.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/fetch_ghosts.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/graph.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/graph.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/graph.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/hunk_selector.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/hunk_selector.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/hunk_selector.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/patch.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/patch.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/patch.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/patchsource.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/patchsource.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/patchsource.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/progress.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/progress.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/progress.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/release.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/release.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/release.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/rspush.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/rspush.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/rspush.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/shelf.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/shelf.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/shelf.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/shell.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/shell.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/shell.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/show_paths.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/show_paths.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/show_paths.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/switch.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/switch.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/switch.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/terminal.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/terminal.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/terminal.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/test.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/test.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/test.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/__init__.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/__init__.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/__init__.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/blackbox.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/blackbox.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/blackbox.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/clean_tree.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/clean_tree.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/clean_tree.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/is_clean.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/is_clean.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/is_clean.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/shelf_tests.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/shelf_tests.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/shelf_tests.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/test_baz_import.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/test_baz_import.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/test_baz_import.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/upstream_import.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/upstream_import.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/tests/upstream_import.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/upstream_import.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/upstream_import.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/upstream_import.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/userinteractor.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/userinteractor.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/userinteractor.pyo
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/zap.py
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/zap.pyc
+  /usr/lib/python2.4/site-packages/bzrlib/plugins/bzrtools/zap.pyo
+  /usr/share/doc/Cygwin/bzrtools-0.15.4.README
+  /usr/share/doc/bzrtools-0.15.4/COPYING
+  /usr/share/doc/bzrtools-0.15.4/CREDITS
+  /usr/share/doc/bzrtools-0.15.4/INSTALL
+  /usr/share/doc/bzrtools-0.15.4/NEWS
+  /usr/share/doc/bzrtools-0.15.4/README
+  /usr/share/doc/bzrtools-0.15.4/TODO
+
+------------------
+
+Port Notes:
+
+----- version 0.15.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,4 @@
+category: Devel
+requires: bzr python
+sdesc: "Bazaar plugins collection"
+ldesc: "A collection of plugins for Bazaar VCS"
