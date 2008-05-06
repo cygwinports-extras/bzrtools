@@ -3,13 +3,13 @@ bzrtools
 A collection of plugins for Bazaar VCS.
 
 Runtime requirements:
-  bzr-1.3-1
-  python-2.5.1-3
+  bzr-1.4-1
+  python-2.5.2-1
 
 Build requirements:
-  cygwin-1.5.25-7
-  cygport-0.3.8-1
-  python-2.5.1-3
+  cygwin-1.5.25-11
+  cygport-0.3.9-1
+  python-2.5.2-1
 
 Canonical website:
   http://bazaar-vcs.org/BzrTools
@@ -20,21 +20,21 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack bzrtools-1.3.0-X-src.tar.bz2
+  unpack bzrtools-1.4.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./bzrtools-1.3.0-X.cygport all
+  cygport ./bzrtools-1.4.0-X.cygport all
 
 This will create:
-  /usr/src/bzrtools-1.3.0-X-src.tar.bz2
-  /usr/src/bzrtools-1.3.0-X.tar.bz2
+  /usr/src/bzrtools-1.4.0-X-src.tar.bz2
+  /usr/src/bzrtools-1.4.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/BzrTools-1.3.0-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/BzrTools-1.4.0-py2.5.egg-info
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.pyo
@@ -155,16 +155,19 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.pyo
-  /usr/share/doc/bzrtools-1.3.0/COPYING
-  /usr/share/doc/bzrtools-1.3.0/CREDITS
-  /usr/share/doc/bzrtools-1.3.0/INSTALL
-  /usr/share/doc/bzrtools-1.3.0/NEWS
-  /usr/share/doc/bzrtools-1.3.0/README
-  /usr/share/doc/bzrtools-1.3.0/TODO
+  /usr/share/doc/bzrtools-1.4.0/COPYING
+  /usr/share/doc/bzrtools-1.4.0/CREDITS
+  /usr/share/doc/bzrtools-1.4.0/INSTALL
+  /usr/share/doc/bzrtools-1.4.0/NEWS
+  /usr/share/doc/bzrtools-1.4.0/README
+  /usr/share/doc/bzrtools-1.4.0/TODO
 
 ------------------
 
 Port Notes:
+
+----- version 1.4.0-1 -----
+Version bump for bzr-1.4.
 
 ----- version 1.3.0-1 -----
 Version bump for bzr-1.3.
