@@ -3,13 +3,13 @@ bzrtools
 A collection of plugins for Bazaar VCS.
 
 Runtime requirements:
-  bzr-1.4-1
-  python-2.5.2-1
+  bzr-1.6-1
+  python-2.5.2-3
 
 Build requirements:
-  cygwin-1.5.25-11
-  cygport-0.3.9-1
-  python-2.5.2-1
+  cygwin-1.5.25-15
+  cygport-0.4.0-1
+  python-2.5.2-3
 
 Canonical website:
   http://bazaar-vcs.org/BzrTools
@@ -20,30 +20,24 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack bzrtools-1.4.0-X-src.tar.bz2
+  unpack bzrtools-1.6.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./bzrtools-1.4.0-X.cygport all
+  cygport ./bzrtools-1.6.0-X.cygport all
 
 This will create:
-  /usr/src/bzrtools-1.4.0-X-src.tar.bz2
-  /usr/src/bzrtools-1.4.0-X.tar.bz2
+  /usr/src/bzrtools-1.6.0-X-src.tar.bz2
+  /usr/src/bzrtools-1.6.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/BzrTools-1.4.0-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/BzrTools-1.6.0-py2.5.egg-info
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.pyo
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/baz_helper.py
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/baz_helper.pyc
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/baz_helper.pyo
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/baz_import.py
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/baz_import.pyc
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/baz_import.pyo
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/branches.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/branches.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/branches.pyo
@@ -77,6 +71,9 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/graph.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/graph.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/graph.pyo
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/heads.py
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/heads.pyc
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/heads.pyo
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/hunk_selector.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/hunk_selector.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/hunk_selector.pyo
@@ -104,9 +101,6 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/shell.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/shell.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/shell.pyo
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/show_paths.py
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/show_paths.pyc
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/show_paths.pyo
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/terminal.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/terminal.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/terminal.pyo
@@ -128,9 +122,12 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/shelf_tests.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/shelf_tests.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/shelf_tests.pyo
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_baz_import.py
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_baz_import.pyc
-  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_baz_import.pyo
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_cbranch.py
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_cbranch.pyc
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_cbranch.pyo
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_dotgraph.py
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_dotgraph.pyc
+  /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_dotgraph.pyo
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_link_tree.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_link_tree.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/tests/test_link_tree.pyo
@@ -155,16 +152,20 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.pyo
-  /usr/share/doc/bzrtools-1.4.0/COPYING
-  /usr/share/doc/bzrtools-1.4.0/CREDITS
-  /usr/share/doc/bzrtools-1.4.0/INSTALL
-  /usr/share/doc/bzrtools-1.4.0/NEWS
-  /usr/share/doc/bzrtools-1.4.0/README
-  /usr/share/doc/bzrtools-1.4.0/TODO
+  /usr/share/doc/bzrtools-1.6.0/AUTHORS
+  /usr/share/doc/bzrtools-1.6.0/COPYING
+  /usr/share/doc/bzrtools-1.6.0/CREDITS
+  /usr/share/doc/bzrtools-1.6.0/INSTALL
+  /usr/share/doc/bzrtools-1.6.0/NEWS
+  /usr/share/doc/bzrtools-1.6.0/README
+  /usr/share/doc/bzrtools-1.6.0/TODO
 
 ------------------
 
 Port Notes:
+
+----- version 1.6.0-1 -----
+Version bump for bzr-1.6.
 
 ----- version 1.4.0-1 -----
 Version bump for bzr-1.4.
