@@ -3,7 +3,7 @@ bzrtools
 A collection of plugins for Bazaar VCS.
 
 Runtime requirements:
-  bzr-1.6-1
+  bzr-1.7.1-1
   python-2.5.2-3
 
 Build requirements:
@@ -20,21 +20,21 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack bzrtools-1.6.0-X-src.tar.bz2
+  unpack bzrtools-1.7.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./bzrtools-1.6.0-X.cygport all
+  cygport ./bzrtools-1.7.0-X.cygport all
 
 This will create:
-  /usr/src/bzrtools-1.6.0-X-src.tar.bz2
-  /usr/src/bzrtools-1.6.0-X.tar.bz2
+  /usr/src/bzrtools-1.7.0-X-src.tar.bz2
+  /usr/src/bzrtools-1.7.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/BzrTools-1.6.0-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/BzrTools-1.7.0-py2.5.egg-info
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/__init__.pyo
@@ -152,17 +152,20 @@ Files included in the binary package:
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.py
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.pyc
   /usr/lib/python2.5/site-packages/bzrlib/plugins/bzrtools/zap.pyo
-  /usr/share/doc/bzrtools-1.6.0/AUTHORS
-  /usr/share/doc/bzrtools-1.6.0/COPYING
-  /usr/share/doc/bzrtools-1.6.0/CREDITS
-  /usr/share/doc/bzrtools-1.6.0/INSTALL
-  /usr/share/doc/bzrtools-1.6.0/NEWS
-  /usr/share/doc/bzrtools-1.6.0/README
-  /usr/share/doc/bzrtools-1.6.0/TODO
+  /usr/share/doc/bzrtools-1.7.0/AUTHORS
+  /usr/share/doc/bzrtools-1.7.0/COPYING
+  /usr/share/doc/bzrtools-1.7.0/CREDITS
+  /usr/share/doc/bzrtools-1.7.0/INSTALL
+  /usr/share/doc/bzrtools-1.7.0/NEWS
+  /usr/share/doc/bzrtools-1.7.0/README
+  /usr/share/doc/bzrtools-1.7.0/TODO
 
 ------------------
 
 Port Notes:
+
+----- version 1.7.0-1 -----
+Version bump for bzr-1.7.
 
 ----- version 1.6.0-1 -----
 Version bump for bzr-1.6.
