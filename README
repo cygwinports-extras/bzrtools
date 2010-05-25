@@ -3,13 +3,13 @@ bzrtools
 A collection of plugins for Bazaar VCS.
 
 Runtime requirements:
-  bzr-2.0.0-1
-  python-2.5.4-10
+  bzr-2.2.0-1
+  python-2.6.5-1
 
 Build requirements:
-  cygwin-1.7.0-61
-  cygport-0.9.9-1
-  python-2.5.4-10
+  cygwin-1.7.5-1
+  cygport-0.9.84-1
+  python-2.6.5-1
 
 Canonical website:
   http://bazaar-vcs.org/BzrTools
@@ -20,19 +20,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack bzrtools-2.0.1-X-src.tar.bz2
+  unpack bzrtools-2.2.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./bzrtools-2.0.1-X.cygport all
+  cygport ./bzrtools-2.2.0-X.cygport all
 
 This will create:
-  /usr/src/bzrtools-2.0.1-X-src.tar.bz2
-  /usr/src/bzrtools-2.0.1-X.tar.bz2
+  /usr/src/bzrtools-2.2.0-X-src.tar.bz2
+  /usr/src/bzrtools-2.2.0-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.2.0-1 -----
+Version bump for bzr-2.2.
 
 ----- version 2.0.1-1 -----
 Version bump for bzr-2.0.
