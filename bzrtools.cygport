@@ -1,0 +1,12 @@
+inherit distutils
+
+NAME="bzrtools"
+VERSION=2.5
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="Bazaar plugins collection"
+DESCRIPTION="A collection of plugins for Bazaar VCS"
+HOMEPAGE="http://bazaar-vcs.org/BzrTools"
+SRC_URI="http://launchpad.net/${PN}/stable/${PV}/+download/${P}.tar.gz
+         http://launchpad.net/${PN}/stable/${PV}/+download/${P}.tar.gz.sig"
+SRC_DIR="${PN}"
